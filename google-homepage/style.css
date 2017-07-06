@@ -1,45 +1,87 @@
-html {
-
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
 }
 
 body {
+	position: relative;
 	text-align: center;
-	font-family: arial, sans-serif;
-	font-size: 13px;
 }
 
 .top-nav {
 	position: absolute;
 	right: 0;
 	left: 0;
-	padding: 0;
+	top: 0;
 	display: block;
+	padding-right: 29px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 15px;
+}
+
+.top-nav img {
+	display: block;
+	height: 25px;
+	padding-top: 2.5px;
+	float: right;
+	opacity: 0.5;
 }
 
 .top-nav li {
 	float: right;
-	padding-right: 30px;
+	padding-left: 16px;
 }
 
-a {
+.sign-in {
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: rgb(66, 133, 244);
+	border: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	line-height: 30px;
+	padding-left: 13px;
+	padding-right: 13px;
+	text-decoration: none;
+}
+
+.top-nav a:hover {
+	text-decoration: underline;
+}
+
+.top-nav img:hover{
+	opacity: 1;
+}
+
+a .sign-in:hover {
+	display: inline-block;
 	text-decoration: none;
 }
 
 .search-tool {
-	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
 	padding-bottom: 60px;
+	padding-top: 24px;
 }
 
-img {
-    display: block;
+.search-tool img {
+    display: inline;
     margin: 0 auto;
     height: 94px;
     margin-top: 89px;
     padding-top: 83px;
 }
 
-form input[type="text"] {
-	margin-top: 30px;
+.search-tool form input[type="text"] {
+	margin-top: 28px;
 	width: 490px;
 	height: 45px;
 	border-style: solid;
@@ -47,13 +89,16 @@ form input[type="text"] {
 	border-color: #e2e2e2;
 	border-bottom-color: rgba(180,180,180, 1);
 	border-width: 1px;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 14px;
 }
 
-form input[type="text"]:hover {
+.search-tool form input[type="text"]:hover {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-form input[type="submit"] {
+.search-tool form input[type="submit"] {
 	margin-top: 30px;
 	border: 0 none;
 	background-color: #f2f2f2;
@@ -66,9 +111,11 @@ form input[type="submit"] {
 	font-size: 13px;
 	font-weight: bold;
 	color: rgb(117, 117, 117);
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
-form input[type="submit"]:hover {
+.search-tool form input[type="submit"]:hover {
 	color: black;
 	border-style: solid;
 	border-width: 1px;
@@ -86,6 +133,8 @@ form input[type="submit"]:hover {
 	display: block;
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .bottom-nav a{
@@ -93,17 +142,17 @@ form input[type="submit"]:hover {
 }
 
 .bottom-nav li {
-	margin-top: 10px;
+	padding-top: 13px;
 }
 
 .bottom-nav-left li {
 	float: left;
-	padding-left: 30px;
+	padding-right: 31px;
 }
 
 .bottom-nav-right li {
 	float: right;
-	padding-right: 30px;
+	padding-left: 31px;
 }
 
 .bottom-nav a:hover {
