@@ -1,14 +1,19 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 13px;
 	color: rgb(0, 0, 0);
 	text-decoration: none;
 }
 
-body {
-	position: relative;
+
+
+html, body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
 	text-align: center;
 }
 
@@ -61,6 +66,11 @@ body {
 a .sign-in:hover {
 	display: inline-block;
 	text-decoration: none;
+}
+
+.wrapper{
+	position: relative;
+	min-height: 100%;
 }
 
 .search-tool {
