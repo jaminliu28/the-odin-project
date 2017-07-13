@@ -163,7 +163,7 @@ form input[type="text"]:hover {
 	padding-top: 135px;
 	padding-left: 165px;
 	padding-bottom: 120px;
-	width: 600px;
+	width: 650px;
 	text-align: left;
 	color: #808080;
 	font-size: 14px;
@@ -185,7 +185,21 @@ form input[type="text"]:hover {
 	color: #006621;
 }
 
+.other-pages th, .other-pages tr {
+	padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 80px;
+    width: 200px;
+    height: 35px;
+    font-size: 13px;
+    color: #545454;
+}
 
+#more-results {
+    padding-left: 30px;
+    line-height: 30px;
+	font-size: 13px;
+}
 
 .similar-search-text {
 	padding-top: 45px;
@@ -206,16 +220,10 @@ form input[type="text"]:hover {
 	color: #1a0dab;
 }
 
-
-
 th, td {
-    right-padding: 15px;
-    left-padding: 15px;
     width: 260px;
     height: 25px;
 }
-
-
 
 
 .bottom-nav {
