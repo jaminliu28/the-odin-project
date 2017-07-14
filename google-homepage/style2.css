@@ -220,11 +220,64 @@ form input[type="text"]:hover {
 	color: #1a0dab;
 }
 
-th, td {
+.similar-search th, .similar-search td {
     width: 260px;
     height: 25px;
 }
 
+#current-o {
+	width: 10px;
+	height: 10px;
+	border: 4px solid #db3236;
+	border-radius: 10px;	
+}
+
+.yellow-o {
+	width: 10px;
+	height: 10px;
+	border: 4px solid #f4c20d;
+	border-radius: 10px;
+}
+
+.page-nav {
+	padding-top: 30px;
+	padding-left: 140px;
+}
+
+.search-page-nav th, .search-page-nav td {
+	padding-left: 2px; 
+
+}
+
+.search-page-nav th {
+	font-size: 20px;
+	color: #4285f4;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#g {
+	display: block;
+	vertical-align: text-bottom;
+}
+
+#gle {
+	display: inline-block;
+	vertical-align: -9px;
+}
+
+.search-page-nav td {
+	color: #4285f4;
+	text-align: center;
+}
+
+.search-page-nav td:hover {
+	text-decoration: underline;
+}
+
+#first-page {
+	color: black;
+}
 
 .bottom-nav {
 	position: absolute;
